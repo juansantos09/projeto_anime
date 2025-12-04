@@ -48,3 +48,85 @@ body {
     color: #e76801;
     text-shadow: 0 0 8px #e76801;
 }
+
+h1 {
+    font-family: "Archivo Black", sans-serif;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    
+}
+
+h2 {
+    font-size: 20px;
+    color: white;
+    line-height: 1.6;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    gap: 90px;
+}
+
+.esquerda .img {
+    width: 550px;
+    border-radius: 30px;
+}
+
+.direito .titulo {
+    font-size: 55px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    color: white;
+    text-align: center;
+}
+
+.secao {
+    width: 80%;
+    margin: 50px auto;
+    box-shadow: 0 0 20px #e76801aa;
+    padding: 35px;
+    background: #111;
+    border-radius: 15px;
+}
+
+.subtitulo {
+    font-family: "Archivo Black";
+    color: #e76801;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.paragrafo {
+    color: #ccc;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #111;
+    padding: 30px 0px 40px 0px;
+}
+
+.titulo h1 {
+    color: #e76801;
+    font-weight: 500;
+    margin: 0%;
+    font-family: "Archivo Black", sans-serif;
+    margin-bottom: 10px;
+}
+
+.titulo h2 {
+    color: gray;
+    font-weight: 400;
+    margin: 0%;
+}

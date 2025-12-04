@@ -63,6 +63,17 @@ h1 {
     text-align: center;
 }
 
+.quadro {
+    width: 80%;
+    max-width: 900px;
+    background-color: #111;
+    padding: 40px;
+    margin-top: 40px;
+    border-radius: 20px;
+    margin-bottom: 60px;
+    transition: 0.3s ease;
+}
+
 .texto {
     font-size: 20px;
     line-height: 1.5;
@@ -72,10 +83,10 @@ h1 {
 
 .secao {
     width: 80%;
-    background: #111;
     margin: 50px auto;
     box-shadow: 0 0 20px #e76801aa;
     padding: 35px;
+    background: #111;
     border-radius: 15px;
 }
 
