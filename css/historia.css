@@ -49,35 +49,38 @@ body {
     text-shadow: 0 0 8px #e76801;
 }
 
-.banner {
-    width: 100%;
-    height: 450px;
-    object-fit: cover;
-    display: block;
-}
-
 h1 {
-    color: white;
     font-family: "Archivo Black", sans-serif;
-    font-size: 45px;
     text-align: center;
+    font-size: 50px;
+    color: white;
+    
 }
 
-.quadro {
-    width: 80%;
-    max-width: 900px;
-    background-color: #111;
-    padding: 40px;
-    margin-top: 40px;
-    border-radius: 20px;
-    margin-bottom: 60px;
-    transition: 0.3s ease;
-}
-
-.texto {
+h2 {
     font-size: 20px;
-    line-height: 1.5;
-    color: #e5e5e5;
+    color: white;
+    line-height: 1.6;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    gap: 90px;
+}
+
+.esquerda .img {
+    width: 550px;
+    border-radius: 30px;
+}
+
+.direito .titulo {
+    font-size: 55px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    color: white;
     text-align: center;
 }
 
@@ -105,9 +108,25 @@ h1 {
     text-align: center;
 }
 
-.lista {
-    color: #ededed;
-    font-size: 18px;
-    line-height: 1.8;
-    margin-top: 20px;
+.titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #111;
+    padding: 30px 0px 40px 0px;
+}
+
+.titulo h1 {
+    color: #e76801;
+    font-weight: 500;
+    margin: 0%;
+    font-family: "Archivo Black", sans-serif;
+    margin-bottom: 10px;
+}
+
+.titulo h2 {
+    color: gray;
+    font-weight: 400;
+    margin: 0%;
 }

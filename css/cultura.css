@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    background-color: #000;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000;
+    padding: 15px 30px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar .logo {
+    width: 140px;
+    height: auto;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;    
+    gap: 18px;           
+    max-width: 900px;    
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 0;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 6px 10px;
+    font-family: "Archivo Black", sans-serif;
+    border-radius: 6px;
+    transition: 0.3s ease;
+}
+
+.navbar ul li a:hover,
+.link_ativ {
+    color: #e76801;
+    text-shadow: 0 0 8px #e76801;
+}
